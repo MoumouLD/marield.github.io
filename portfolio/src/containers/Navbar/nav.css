@@ -1,0 +1,21 @@
+.nav_container_list {
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.list_items  {
+    padding: 10px;
+
+}
+
+a {
+    color: white;
+}
+
+.list_items:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}

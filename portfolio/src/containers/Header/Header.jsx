@@ -1,5 +1,6 @@
 import React from "react";
 import './header.css';
+import Nav from "../Navbar/Nav";
 import Photo from '../../assets/Marie-1.jpg'
 
 const Header = () => {
@@ -10,7 +11,9 @@ const Header = () => {
                 <h1>Marie LE DÛ</h1>
                 <p>Student in Web Development</p>
             </div>
-        
+
+            <Nav></Nav>
+
             <img id="profil-pic" src={Photo} alt='profil'/>
 
         </header>
