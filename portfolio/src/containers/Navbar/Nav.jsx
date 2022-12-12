@@ -26,7 +26,7 @@ const Nav = () => {
             <ul className="nav_container_list">
                 <li className="list_items linkedin"> <a href="https://www.linkedin.com/in/marieledu/" target="_blank"><BsLinkedin/></a></li>
                 <li className="list_items github"> <a href="https://github.com/MoumouLD" target="_blank"><BsGithub/></a></li>
-                <li className="list_items mail"><RiMailSendFill/></li>
+                <li className="list_items mail"> <a href='#contact_form'><RiMailSendFill/></a></li>
                 <li className="list_items pdf"><a href={CV} target="_blank" rel="noreferrer"><BsFillFileEarmarkPdfFill/></a></li>
             </ul>
         </nav>

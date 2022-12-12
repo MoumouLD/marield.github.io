@@ -1,14 +1,30 @@
 #contact_container {
     width: 100vw;
+    background-color: #090314;
+}
+h3 {
+    color: white;
+    text-align: center;
 }
 
 #form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #211529;
+    width: 35%;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 #contact_container form input, textarea{
-    width: 30vw;
+    width: 30vw; 
+    padding: 10px;
+    margin: 15px;
+    background-color: #090314;
+}
 
+#form button{
+    padding: 5px;
+    border-radius: 5px;
 }
