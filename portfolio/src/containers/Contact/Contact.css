@@ -2,9 +2,11 @@
     width: 100vw;
     background-color: #090314;
 }
-h3 {
+#contact_container h3 {
     color: white;
     text-align: center;
+    padding-top: 25px;
+    font-size: 0.8em;
 }
 
 #form {
@@ -12,16 +14,22 @@ h3 {
     flex-direction: column;
     align-items: center;
     background-color: #211529;
-    width: 35%;
     padding: 30px;
+    width: 30vw;
     border-radius: 20px;
+    margin: 0 auto;
+   
+   
 }
 
 #contact_container form input, textarea{
-    width: 30vw; 
+    width: 85%; 
     padding: 10px;
     margin: 15px;
     background-color: #090314;
+    border: none;
+    border-radius: 10px;
+    font-family: "Imprima";
 }
 
 #form button{
