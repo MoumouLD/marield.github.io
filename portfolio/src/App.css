@@ -8,6 +8,7 @@ body{
 #triangle-top {
   position: absolute;
   top: 0;
+  width: calc(100vw - 75%);
 }
 
 #triangle-bot {
@@ -18,4 +19,5 @@ body{
     transform: scale(-1, -1);
   bottom: 0;
   right: 0;
+  width: calc(100vw - 75%);
 }

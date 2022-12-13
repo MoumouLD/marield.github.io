@@ -1,6 +1,6 @@
 #profil-pic{
     border-radius: 50%;
-    width: 20vw;
+    width: calc(100vw - 80%);
     align-self: center;
     margin-top: 3vw;
 }
@@ -13,10 +13,14 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 1vw;
 }
 
 .header_text:nth-child(1) {
     line-height: 0.8;
 }
 
+@media (max-width:640px) {
+    #profil-pic{
+        width: 45%;
+    }
+}

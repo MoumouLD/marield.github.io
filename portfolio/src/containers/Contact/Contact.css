@@ -1,6 +1,7 @@
 #contact_container {
     width: 100vw;
     background-color: #090314;
+    
 }
 #contact_container h3 {
     color: white;
@@ -35,4 +36,11 @@
 #form button{
     padding: 5px;
     border-radius: 5px;
+}
+
+
+@media (max-width:640px) {
+    #form{
+        width: 50vw;
+    }
 }
