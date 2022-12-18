@@ -1,0 +1,101 @@
+.ContactUsForm .send-btn {
+    display: inline-block;
+    background: #000;
+    border-bottom-right-radius: 3px;
+    text-decoration: none;
+    width: 30%;
+    height: 30%;
+    margin: auto ;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .ContactUsForm  .send-span {
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    height: 100%; 
+    background: #F6D45B;
+    padding: 8% 2%;
+    color: #333;
+    box-shadow:0 0 0 2px #333 inset;
+    border-left: 0;
+    border-top: 0;
+    border-bottom-right-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+            transform 0.15s ease-out,
+            color 0.15s ease-out,
+            background-color 0.15s ease-out;
+  }
+
+  .ContactUsForm  .send-span:hover {
+    transform: translate(-6px, -6px);
+    color: #000;
+    background: #dfdfdf;
+  }
+  
+  .contact-link:hover {
+    color: #ba5eff;
+  }
+  
+  .ContactUsForm {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    &-box {
+      display: block;
+      position: relative;
+      width: fit-content;
+      margin: 2% auto;
+      padding: 3%;
+      border-radius: 2%;
+    }
+  }
+  
+  .ContactUsForm  .talk {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .ContactUsForm  .textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+  
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  
+    resize: block; /*remove the resize handle on the bottom right*/
+    width: 100%;
+  }
+  
+  .ContactUsForm  .Input {
+    width: 88%;
+    display: inline-block;
+    margin: 6%;
+    &-textarea {
+      width: 88%;
+    }
+  }
+  
+  .ContactUsForm  .send {
+    &-ctn {
+      width: 20%;
+      margin: auto;
+    }
+    width: 100%;
+    background: #ba5eff;
+    color: antiquewhite;
+    border: none;
+    &:hover {
+      background: #913ce0;
+      color: #e0e0e0;
+    }
+  }
+  
+  
